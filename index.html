@@ -96,7 +96,7 @@
       pemain.forEach(([nama,nomor,posisi,foto]) => {
         const card = document.createElement("article"); card.className = "kc-player-card";
         const img = document.createElement("img");
-        img.src = `assets/pemain_(${foto}).jpeg`; img.alt = `Foto ${nama}`; img.loading = "lazy";
+        img.src = `pemain_(${foto}).jpeg`; img.alt = `Foto ${nama}`; img.loading = "lazy";
         const info = document.createElement("div"); info.className = "kc-player-info";
         const number = document.createElement("div"); number.className = "kc-player-number"; number.textContent = `#${nomor}`;
         const title = document.createElement("h3"); title.textContent = nama;
