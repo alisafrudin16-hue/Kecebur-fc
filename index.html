@@ -1,161 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#292738">
+  <meta name="description" content="Website Kecebur FC, tim sepak bola Dusun Kecebur, Desa Karangtengah. Berdiri sejak 22 Juni 2018. Satu Tim, Satu Keluarga.">
+  <title>Kecebur FC — Satu Tim, Satu Keluarga</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="Kecebur FC beranda">
+      <img src="assets/logo-kecebur-fc.jpeg" alt="Logo Kecebur FC">
+      <span><strong>KECEBUR FC</strong><small>DUSUN KECEBUR · KARANGTENGAH</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav id="mainNav" aria-label="Navigasi utama">
+      <a href="#beranda">Beranda</a>
+      <a href="#tentang">Sejarah</a>
+      <a href="#pemain">Pemain</a>
+      <a href="#jadwal">Jadwal & Hasil</a>
+      <a href="#galeri">Galeri</a>
+      <a class="nav-cta" href="#kontak">Hubungi Tim</a>
+    </nav>
+  </header>
 
-<!-- MULAI: SKUAD KECEBUR FC -->
-<style>
-  #skuad-kecebur {
-    background: #07162e;
-    color: #fff;
-    padding: 60px 20px;
-    font-family: Arial, sans-serif;
-  }
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-pattern"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> DUSUN KECEBUR · DESA KARANGTENGAH</p>
+        <h1>SATU TIM,<br><em>SATU KELUARGA.</em></h1>
+        <p class="hero-copy">Bukan sekadar sebelas pemain. Kami adalah keluarga yang tumbuh bersama, berjuang bersama, dan membawa kebanggaan Kecebur ke setiap lapangan.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#tentang">Kenali Kecebur FC <span>↗</span></a>
+          <a class="button button-outline" href="#jadwal">Jadwal Pertandingan</a>
+        </div>
+        <div class="hero-founded"><strong>22 JUNI 2018</strong><span>BERDIRI DENGAN SEMANGAT KEBERSAMAAN</span></div>
+      </div>
+      <div class="hero-logo-wrap"><img src="assets/logo-kecebur-fc.jpeg" alt="" class="hero-logo"></div>
+      <div class="hero-watermark" aria-hidden="true">KFC<span>2018</span></div>
+    </section>
 
-  #skuad-kecebur * {
-    box-sizing: border-box;
-  }
+    <section class="quick-stats" aria-label="Informasi Kecebur FC">
+      <div><span class="stat-number">2018</span><span class="stat-label">TAHUN BERDIRI</span></div>
+      <div><span class="stat-number">1 TIM</span><span class="stat-label">SATU KELUARGA</span></div>
+      <div><span class="stat-number">100%</span><span class="stat-label">SEMANGAT BERSAMA</span></div>
+      <div><span class="stat-number">KC</span><span class="stat-label">KEBANGGAAN KECEBUR</span></div>
+    </section>
 
-  #skuad-kecebur .judul-skuad {
-    text-align: center;
-    margin-bottom: 35px;
-  }
+    <section class="section about-section" id="tentang">
+      <div class="section-kicker">CERITA KAMI <span>01 / SEJARAH</span></div>
+      <div class="about-grid">
+        <div><h2>BERAWAL DARI<br><em>KECINTAAN PADA BOLA.</em></h2></div>
+        <div class="about-copy">
+          <p class="lead">Kecebur FC adalah tim sepak bola yang berasal dari Dusun Kecebur, Desa Karangtengah.</p>
+          <p>Didirikan pada <strong>22 Juni 2018</strong>, Kecebur FC menjadi wadah untuk menyalurkan minat dan bakat sepak bola, mempererat persaudaraan, serta membangun semangat kebersamaan di lingkungan desa.</p>
+          <p>Bagi kami, sepak bola bukan hanya tentang skor akhir. Ini tentang kerja sama, sportivitas, perjuangan, dan kebanggaan membawa nama Kecebur di setiap pertandingan.</p>
+          <div class="signature">SATU TIM. SATU KELUARGA. <span>— KECEBUR FC</span></div>
+        </div>
+      </div>
+      <div class="values-grid">
+        <article class="value-card"><span class="value-icon">01</span><h3>Persaudaraan</h3><p>Menjaga kebersamaan di dalam dan di luar lapangan.</p></article>
+        <article class="value-card"><span class="value-icon">02</span><h3>Sportivitas</h3><p>Bermain dengan jujur, menghormati lawan, dan menjunjung fair play.</p></article>
+        <article class="value-card"><span class="value-icon">03</span><h3>Perjuangan</h3><p>Terus berlatih, berkembang, dan memberikan yang terbaik.</p></article>
+      </div>
+    </section>
 
-  #skuad-kecebur .judul-skuad h2 {
-    color: #fff;
-    font-size: 32px;
-    margin-bottom: 10px;
-  }
+    <section class="squad-section section" id="pemain">
+      <div class="section-kicker">ORANG-ORANG DI BALIK LAMBANG <span>02 / SKUAD</span></div>
+      <div class="section-heading">
+        <div><h2>SKUAD <em>KECEBUR FC</em></h2><p>Para pemain yang membawa semangat Kecebur ke lapangan.</p></div>
+        <span class="roster-badge">ROSTER TIM</span>
+      </div>
+      <div class="squad-placeholder">
+        <div class="placeholder-ball">⚽</div>
+        <h3>SKUAD SEGERA HADIR</h3>
+        <p>Data pemain belum dimasukkan. Bagian ini nanti bisa menampilkan foto, nama, posisi, dan nomor punggung setiap pemain.</p>
+        <a href="#kontak" class="text-link">Kirim data pemain <span>↗</span></a>
+      </div>
+    </section>
 
-  #skuad-kecebur .judul-skuad p {
-    color: #b8c6db;
-  }
+    <section class="section fixtures-section" id="jadwal">
+      <div class="section-kicker">JANGAN LEWATKAN AKSINYA <span>03 / MATCH CENTER</span></div>
+      <div class="section-heading">
+        <div><h2>JADWAL <em>& HASIL.</em></h2><p>Informasi pertandingan Kecebur FC dalam satu tempat.</p></div>
+        <div class="fixture-tabs" role="group" aria-label="Pilih jadwal atau hasil">
+          <button class="tab-button active" data-tab="upcoming">Jadwal</button>
+          <button class="tab-button" data-tab="results">Hasil</button>
+        </div>
+      </div>
+      <div id="fixtureList" class="fixture-list" aria-live="polite"></div>
+      <p class="small-note">Catatan: data pertandingan di bawah ini adalah contoh tampilan, bukan jadwal atau hasil resmi. Ganti datanya melalui file <code>script.js</code> setelah informasi pertandingan tersedia.</p>
+    </section>
 
-  #skuad-kecebur .daftar-pemain {
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns:
-      repeat(auto-fit, minmax(190px, 1fr));
-    gap: 20px;
-  }
+    <section class="gallery-section section" id="galeri">
+      <div class="section-kicker">MOMEN YANG MENJADI CERITA <span>04 / GALERI</span></div>
+      <div class="section-heading">
+        <div><h2>GALERI <em>KECEBUR FC.</em></h2><p>Setiap pertandingan menyimpan cerita dan kenangan.</p></div>
+      </div>
+      <div class="gallery-grid">
+        <article class="gallery-card gallery-large">
+          <img src="assets/logo-kecebur-fc.jpeg" alt="Logo kebanggaan Kecebur FC">
+          <div class="gallery-caption"><span>01 / IDENTITAS</span><h3>Lambang Kebanggaan</h3></div>
+        </article>
+        <article class="gallery-card gallery-placeholder">
+          <div class="gallery-placeholder-icon">＋</div><span>02 / FOTO TIM</span><h3>Foto Bersama</h3><p>Tambahkan foto skuad Kecebur FC.</p>
+        </article>
+        <article class="gallery-card gallery-placeholder">
+          <div class="gallery-placeholder-icon">＋</div><span>03 / MATCH DAY</span><h3>Hari Pertandingan</h3><p>Abadikan perjuangan tim di lapangan.</p>
+        </article>
+      </div>
+      <p class="small-note">Untuk menambah foto, simpan gambar di folder <code>assets</code>, lalu ganti kartu galeri di <code>index.html</code>.</p>
+    </section>
 
-  #skuad-kecebur .kartu-pemain {
-    background: #142b4d;
-    border: 1px solid #294469;
-    border-radius: 15px;
-    overflow: hidden;
-    transition: transform .2s ease;
-  }
+    <section class="banner-quote">
+      <div class="quote-lines" aria-hidden="true">K<br>F<br>C</div>
+      <div>
+        <p class="eyebrow">LEBIH DARI 90 MENIT</p>
+        <h2>MENANG BERSAMA.<br><em>BERJUANG BERSAMA.</em></h2>
+        <p>Karena kebanggaan terbesar adalah menjadi bagian dari keluarga Kecebur FC.</p>
+      </div>
+      <div class="quote-year">EST.<br><strong>2018</strong></div>
+    </section>
 
-  #skuad-kecebur .kartu-pemain:hover {
-    transform: translateY(-5px);
-  }
+    <section class="section contact-section" id="kontak">
+      <div class="section-kicker">TETAP TERHUBUNG <span>05 / KONTAK</span></div>
+      <div class="contact-grid">
+        <div><h2>DUKUNG<br><em>KECEBUR FC.</em></h2><p>Ikuti perjalanan tim, bagikan semangatnya, dan hubungi pengurus untuk informasi pertandingan atau kerja sama.</p></div>
+        <div class="contact-panel">
+          <span class="contact-label">LOKASI TIM</span>
+          <h3>Dusun Kecebur</h3><p>Desa Karangtengah</p>
+          <div class="contact-divider"></div>
+          <span class="contact-label">TANGGAL BERDIRI</span>
+          <h3>22 Juni 2018</h3>
+          <div class="contact-divider"></div>
+          <span class="contact-label">MEDIA SOSIAL</span>
+          <p>Instagram Kecebur FC</p>
+          <a class="button button-dark" href="#" id="instagramLink" target="_blank" rel="noopener">Kunjungi Instagram <span>↗</span></a>
+          <p class="contact-note">Tautan Instagram dapat diatur di <code>script.js</code> setelah username resmi tersedia.</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-  #skuad-kecebur .kartu-pemain img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
-    background: #213a5d;
-  }
-
-  #skuad-kecebur .info-pemain {
-    text-align: center;
-    padding: 16px;
-  }
-
-  #skuad-kecebur .nomor {
-    font-size: 26px;
-    font-weight: bold;
-    color: #f5cb58;
-  }
-
-  #skuad-kecebur .info-pemain h3 {
-    color: #fff;
-    margin: 8px 0;
-    font-size: 20px;
-  }
-
-  #skuad-kecebur .info-pemain p {
-    color: #c0cde0;
-    margin: 0;
-    font-size: 14px;
-  }
-
-  @media (max-width: 480px) {
-    #skuad-kecebur .daftar-pemain {
-      grid-template-columns:
-        repeat(2, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    #skuad-kecebur .info-pemain {
-      padding: 12px 6px;
-    }
-
-    #skuad-kecebur .info-pemain h3 {
-      font-size: 17px;
-    }
-  }
-</style>
-
-<section id="skuad-kecebur">
-  <div class="judul-skuad">
-    <h2>SKUAD KECEBUR FC</h2>
-    <p>Satu Tim, Satu Keluarga</p>
-  </div>
-
-  <div class="daftar-pemain" id="daftar-kecebur">
-  </div>
-</section>
-
-<script>
-(function () {
-  const pemain = [
-    ["Rehan", 1, "GK", 14],
-    ["Ifan", 2, "CB", 11],
-    ["Doni", 4, "CB", 8],
-    ["Ali", 20, "LB", 12],
-    ["Riski", 3, "RB", 1],
-    ["Sigit", 6, "DM", 9],
-    ["Riyan", 11, "CM", 15],
-    ["Akbar", 13, "CM", 10],
-    ["Adit", 12, "CM", 7],
-    ["Abas", 8, "CM", 6],
-    ["Rindho", 10, "CM", 4],
-    ["Ogy", 7, "CF", 2],
-    ["Agung", 5, "CM", 5]
-  ];
-
-  const daftar = document.getElementById(
-    "daftar-kecebur"
-  );
-
-  if (!daftar) return;
-
-  pemain.forEach(([nama, nomor, posisi, foto]) => {
-    const kartu = document.createElement("article");
-    kartu.className = "kartu-pemain";
-
-    const gambar = document.createElement("img");
-    gambar.src = `https://alisafrudin16-hue.github.io/Kecebur-fc/assets/pemain_(${foto}).jpeg`;
-    gambar.alt = `Foto ${nama}`;
-    gambar.loading = "lazy";
-
-    const info = document.createElement("div");
-    info.className = "info-pemain";
-
-    const nomorEl = document.createElement("div");
-    nomorEl.className = "nomor";
-    nomorEl.textContent = `#${nomor}`;
-
-    const namaEl = document.createElement("h3");
-    namaEl.textContent = nama;
-
-    const posisiEl = document.createElement("p");
-    posisiEl.textContent = posisi;
-
-    info.append(nomorEl, namaEl, posisiEl);
-    kartu.append(gambar, info);
-    daftar.appendChild(kartu);
-  });
-})();
-</script>
-<!-- SELESAI: SKUAD KECEBUR FC -->
+  <footer class="site-footer">
+    <a class="footer-brand" href="#beranda"><img src="assets/logo-kecebur-fc.jpeg" alt=""><span>KECEBUR FC</span></a>
+    <p>Dusun Kecebur, Desa Karangtengah · Berdiri 22 Juni 2018</p>
+    <span class="copyright">© <span id="year"></span> KECEBUR FC. SATU TIM, SATU KELUARGA.</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
